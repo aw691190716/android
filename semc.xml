@@ -2,7 +2,8 @@
 <manifest>
   <remote name="msm7x30"
           fetch="https://github.com"
-          review="review.msm7x30.org" />
+          review="review.msm7x30.org"
+          revision="refs/heads/cm-12.1" />
 
   <project name="LegacyXperia/local_manifests" path="vendor/extra" remote="msm7x30" />
 
