@@ -7,6 +7,7 @@
            revision="refs/tags/android-5.1.1_r24" />
 
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" remote="aosp" />
+  <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" groups="pdk-cw-fs" remote="aosp" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs" remote="aosp" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs" remote="aosp" />
   <project path="development" name="platform/development" groups="pdk-cw-fs" remote="aosp" />
@@ -15,6 +16,13 @@
   <project path="developers/docs" name="platform/developers/docs" remote="aosp" />
   <project path="device/common" name="device/common" groups="pdk-cw-fs" remote="aosp" />
   <project path="developers/samples/android" name="platform/developers/samples/android" remote="aosp" />
+  <project path="device/asus/deb" name="device/asus/deb" groups="device,flo" remote="aosp" />
+  <project path="device/asus/flo" name="device/asus/flo" groups="device,flo" remote="aosp" />
+  <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="device,flo" clone-depth="1" remote="aosp" />
+  <project path="device/asus/fugu" name="device/asus/fugu" groups="device,fugu" remote="aosp" />
+  <project path="device/asus/fugu-kernel" name="device/asus/fugu-kernel" groups="device,fugu" clone-depth="1" remote="aosp" />
+  <project path="device/asus/grouper" name="device/asus/grouper" groups="device,grouper" remote="aosp" />
+  <project path="device/asus/tilapia" name="device/asus/tilapia" groups="device,grouper" remote="aosp" />
   <project path="device/generic/arm64" name="device/generic/arm64" groups="pdk" remote="aosp" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" remote="aosp" />
   <project path="device/generic/common" name="device/generic/common" groups="pdk" remote="aosp" />
@@ -31,6 +39,15 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" remote="aosp" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" remote="aosp" />
   <project path="device/google/atv" name="device/google/atv" groups="device" remote="aosp" />
+  <project path="device/htc/flounder" name="device/htc/flounder" groups="device,flounder" remote="aosp" />
+  <project path="device/htc/flounder-kernel" name="device/htc/flounder-kernel" groups="device,flounder" clone-depth="1" remote="aosp" />
+  <project path="device/lge/hammerhead" name="device/lge/hammerhead" groups="device,hammerhead" remote="aosp" />
+  <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead" clone-depth="1" remote="aosp" />
+  <project path="device/lge/mako" name="device/lge/mako" groups="device,mako" remote="aosp" />
+  <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" clone-depth="1" remote="aosp" />
+  <project path="device/moto/shamu" name="device/moto/shamu" groups="device,shamu" remote="aosp" />
+  <project path="device/moto/shamu-kernel" name="device/moto/shamu-kernel" groups="device,shamu" clone-depth="1" remote="aosp" />
+  <project path="device/samsung/manta" name="device/samsung/manta" groups="device,manta" remote="aosp" />
   <project path="device/sample" name="device/sample" groups="pdk" remote="aosp" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" remote="aosp" />
@@ -208,6 +225,7 @@
   <project path="external/stlport" name="platform/external/stlport" groups="pdk" remote="aosp" />
   <project path="external/stressapptest" name="platform/external/stressapptest" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/sqlite" name="platform/external/sqlite" groups="pdk" remote="aosp" />
+  <project path="external/srec" name="platform/external/srec" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/svox" name="platform/external/svox" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/tagsoup" name="platform/external/tagsoup" groups="pdk-cw-fs,tradefed" remote="aosp" />
   <project path="external/tcpdump" name="platform/external/tcpdump" groups="pdk,pdk-cw-fs" remote="aosp" />
@@ -271,6 +289,8 @@
   <project path="hardware/qcom/msm8x27" name="platform/hardware/qcom/msm8x27" groups="qcom_msm8x27" remote="aosp" />
   <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="qcom_msm8x74" remote="aosp" />
   <project path="hardware/qcom/msm8x84" name="platform/hardware/qcom/msm8x84" groups="qcom_msm8x84" remote="aosp" />
+  <project path="hardware/qcom/power" name="platform/hardware/qcom/power" groups="qcom" remote="aosp" />
+  <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" remote="aosp" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" remote="aosp" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" remote="aosp" />
   <project path="ndk" name="platform/ndk" remote="aosp" />
