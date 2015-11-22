@@ -11,7 +11,7 @@
           review="review.msm7x30.org"
           revision="refs/heads/cm-12.1" />
 
-  <remote  name="cyanogenmod"
+  <remote  name="github"
            fetch="https://github.com"
            review="review.cyanogenmod.org"
            revision="refs/heads/cm-12.1" />
@@ -23,7 +23,7 @@
   <include name="aosp.xml" />
   <include name="semc.xml" />
   <include name="cm.xml" />
-  <project path="cm_android" name="CyanogenMod/android" remote="cyanogenmod" />
+  <project path="cm_android" name="CyanogenMod/android" remote="github" />
   <project path="aosp_android" name="platform/manifest" remote="aosp" />
 
 </manifest>
